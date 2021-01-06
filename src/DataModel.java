@@ -82,7 +82,7 @@ public class DataModel implements Model {
 		parent.textSize(20);
 		parent.textAlign(parent.CENTER);
 		
-		parent.text("R Value: " + ((float)PApplet.round(Simulation.r * 100)), 1150, 100);
+		parent.text("R Value: " + ((float)PApplet.round(Simulation.r * 100))/100, 1150, 100);
 		parent.text("Population: " + Simulation.currentN, 1150, 250);
 		parent.text("Carrying Capacity: " + Simulation.K, 1150, 400);
 		parent.text("Time Step " + Simulation.timeStep, 1150, 550);

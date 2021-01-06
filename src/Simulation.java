@@ -10,7 +10,7 @@ public class Simulation extends PApplet {
 
 	// global variable declarations
 
-	public static float r = 0.04f;
+	public static float r = 0.02f;
 	public static float currentN = 100f;
 	public static float K = 10000f;
 	public static float timeStep = 1;
